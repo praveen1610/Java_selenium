@@ -1,0 +1,19 @@
+package Core_Java_samples;
+
+public class Palindrome {
+public static void main(String[] args){
+	String a = "sports";
+	StringBuilder s2 = new StringBuilder(a);
+	String b = s2.reverse().toString();
+	if(b.equals(a))
+	{
+		System.out.println("its palindrome " +a+ " " +b);
+	}
+	else 
+	{
+		System.out.println("not a palindrome" +b);
+	}
+	
+	
+}
+}

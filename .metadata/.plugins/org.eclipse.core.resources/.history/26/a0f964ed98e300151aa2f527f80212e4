@@ -1,0 +1,20 @@
+package Core_Java_samples;
+
+import java.util.Scanner;
+
+public class Remove_Duplicate_Array {
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		int[] inputarry = new int[10]{56,55,59,56,85,55,45,59,92,56};
+		
+		for(int i=0; i<10; i++){
+			inputarry[i]=input.nextInt();
+		}
+		System.out.println("Input is completed: The given input is:\n");
+		
+		for(int i=0; i<10; i++){
+			System.out.println(inputarry[i]);
+		}
+	}
+
+}

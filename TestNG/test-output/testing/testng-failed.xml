@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testing]">
+  <parameter name="prametertesting" value="testing"/>
+  <test name="sampletest(failed)">
+    <classes>
+      <class name="Sample.Dnsstuff_Text_command">
+        <methods>
+          <include name="Dnsreport"/>
+        </methods>
+      </class> <!-- Sample.Dnsstuff_Text_command -->
+    </classes>
+  </test> <!-- sampletest(failed) -->
+</suite> <!-- Failed suite [testing] -->

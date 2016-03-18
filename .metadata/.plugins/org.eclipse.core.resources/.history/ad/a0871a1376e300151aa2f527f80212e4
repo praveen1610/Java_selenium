@@ -1,0 +1,8 @@
+package Core_Java_samples;
+
+import java.util.Scanner;
+
+public class Palindrome_withoutFunctions {
+	public static void main(String[] args){	}
+
+}

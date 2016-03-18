@@ -1,0 +1,32 @@
+
+public class Array_ascending {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] input = {56,56,56,45,59,54,54,53,54,45};
+		int i,j;
+		int d = input.length;
+		System.out.println("first loop" +d);
+		for(i=0; i<d; i++){
+			//System.out.println("first loop"+input[i]);
+			for(j=i+1;j<d;j++){
+				System.out.println("first loop"+input[i]);
+				System.out.println("first loop"+input[j]);
+	
+		if(input[i] <= input[j]){
+				
+				
+				//System.out.println(input[i+1]);
+				int a = input[i];
+				input[j] = input[i];
+				input[j] = a;
+				System.out.println("Inside if condition "+input[i]);
+			}
+		}
+			for(i=0; i<10; i++){
+				System.out.println(input[i]);
+			}
+	}
+	}
+
+}

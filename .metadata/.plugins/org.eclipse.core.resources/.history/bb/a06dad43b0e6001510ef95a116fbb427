@@ -1,0 +1,23 @@
+
+public class Palindrome {
+
+	public static void main(String args[]){
+		// madam
+		String input = "madam";
+		int middle = (input.length()-1)/2;
+		int start = 0;
+		int end = input.length()-1;
+		int i;
+		for(i = start; i<middle; i++){
+			if(input.charAt(i) == input.charAt(end))
+				end--;
+			else
+				break;			
+		}
+		if(i == middle-1){
+			System.out.println("Scuess");
+			
+		}else
+			System.out.println("Scuess fail" +i);
+	}
+}

@@ -1,0 +1,15 @@
+package Core_Java_samples;
+
+public class Palindrome {
+public static void main(String[] args){
+	String a = "madam";
+	StringBuilder s2 = new StringBuilder(a);
+	String b = s2.reverse().toString();
+	if(s2.reverse().equals(s2.toString()))
+	{
+		System.out.println("its palindrome " +a " " +b);
+	}
+	
+	
+}
+}
