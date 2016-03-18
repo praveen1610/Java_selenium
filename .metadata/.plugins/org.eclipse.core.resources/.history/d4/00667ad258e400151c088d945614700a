@@ -1,8 +1,0 @@
-package Core_Java_samples;
-
-public class Factorial {
-	public static void main(String[] args){
-		
-	}
-
-}

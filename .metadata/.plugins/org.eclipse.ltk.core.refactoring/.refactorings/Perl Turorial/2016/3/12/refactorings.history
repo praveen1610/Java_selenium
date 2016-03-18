@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Perl Turorial/2_Array&apos; to &apos;2_Array.pl&apos;" description="Rename resource &apos;2_Array&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="2_Array" name="2_Array.pl" stamp="1458310802232" updateReferences="true"/>
+</session>
