@@ -2,6 +2,7 @@ AbstractTextEditor.Color.Background=255,255,255
 AbstractTextEditor.Color.Background.SystemDefault=false
 AbstractTextEditor.Color.Foreground=51,51,51
 AbstractTextEditor.Color.Foreground.SystemDefault=false
+PERL_EXECUTABLE="C\:\\Perl64\\bin\\perl.exe"
 bookmarkIndicationColor=153,0,153
 comment1Color=255,153,0
 comment2Color=255,153,0

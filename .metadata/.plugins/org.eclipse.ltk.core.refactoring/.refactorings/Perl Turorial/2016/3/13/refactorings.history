@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Perl Turorial/4_Scalar_function&apos; to &apos;4_Scalar_function.pl&apos;" description="Rename resource &apos;4_Scalar_function&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="4_Scalar_function" name="4_Scalar_function.pl" stamp="1458480763220" updateReferences="true"/>
+</session>
