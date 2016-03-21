@@ -1,0 +1,5 @@
+#!/usr/bin/perl
+
+$input = "prav"."kumar";
+$addition = 5 + 5;
+$multi = 4 * 4;

@@ -20,3 +20,7 @@ print "After unshift Added one element in front: @names\n";
 #slicing Array 
 @sliced=@names[2,1];
 print "sliced: @sliced\n";
+
+#array size
+$size = @names;
+print "The array size is $size \n";
